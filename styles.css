@@ -1,8 +1,29 @@
 /*  your css code here. If applicable */
-#container{
-	background-color:#D3D3D3;
-	padding:10px;
-	display:inline;
-	margin-right:1rem;
-	list-style:nobullets;
+nav {
+    background-color: #D3D3D3;
+    padding: 10px;
 }
+
+/* Remove default list styles */
+ul {
+    list-style: none;
+}
+
+/* Display list items horizontally */
+ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+/* Style links in list items */
+ul li a {
+    text-decoration: none;
+    color: #000; /* Set link color */
+    font-weight: bold;
+}
+
+
+
+
+
+
